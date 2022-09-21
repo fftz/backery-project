@@ -1,8 +1,6 @@
 html, body {
-    height: 100%;
     margin: 0;
  padding: 0; 
-    box-sizing: border-box; 
     font-family: 'Inter', sans-serif;
 
 }
@@ -69,7 +67,7 @@ a:link {
 
   }
   .discover-btn:hover {
-    height: 4em;
+    height: 3.7em;
 background-color: #A10F33 ; 
 opacity: 100%;
 
@@ -81,3 +79,228 @@ opacity: 100%;
     margin-top: 0;
     
 }
+
+/* -------ABOUT US SECTION -------*/
+/* note: margin top right bottom left */
+
+
+.container-aboutus {
+  display: flex;
+background-color: #F8F5F2 ;
+width: 110em;
+height: 60em;
+
+}
+
+.child-aboutus {
+  display: inline-block;  
+
+}
+
+.img-aboutus {
+  margin-top: 20em;
+  width: 50em;
+border-radius: 8px;
+}
+
+
+.text-aboutus {
+  /*inline-size: 80em;*/  
+  /*overflow-wrap: break-word;*/
+  font-size: 22px;
+  font-weight: 200;
+width:30em;
+margin-left: 3.3em
+
+}
+ 
+  .headline-aboutus {
+    color: #A10F33;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+    font-size: 24px;
+   margin-top: 19em;
+   padding: 0;;
+   margin-left: 3.2em;
+    }
+
+  
+.learnmore-btn {
+  color: #FFFFFF;
+  border: none;
+  width: 13em;
+  height: 3.5em;
+  border-radius: 20em;
+  letter-spacing: 0.2em;
+  font-size: large;
+  background-color:rgb(161,15,51);
+  opacity:80%;
+  transition: 0.8s;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 4.1em;
+  margin-top: 2.5em;
+}
+
+.learnmore-btn:hover {
+  height: 3.7em;
+  background-color: #A10F33 ; 
+opacity: 100%;
+font-style: italic;
+}
+
+/* -----FATCAT SPECIALS SECTION --------*/
+
+
+.container-specials {
+  display:flex;
+  margin-top: 10em;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: #A10F33;
+  font-style: italic;
+  font-weight: 300;
+
+}
+
+.specials {
+  /* width: 33%; */
+  display:inline-block;  
+  margin-left: 8em;
+}
+
+.specials img {
+  width: 25em;
+  border-radius: 8px;
+  position:relative;
+  margin-top: 2em;
+  padding: 0;
+
+}
+
+.specials-btn {
+  position:absolute;
+  color: #23272e;
+  border: none;
+  width: 13em;
+  height: 3.5em;
+  border-radius: 20em;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  background-color:#BCC0CA;
+  opacity:70%;
+  transition: 0.3s;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1em;
+  margin-top:-5em;
+  transition: 1s;
+
+
+}
+
+.specials-btn:hover {
+  background-color: #A10F33 ; 
+  color: #FFFFFF;
+opacity: 100%;
+font-style: italic;
+}
+
+.specials-text {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  margin-left: 1em;
+}
+
+
+/* -----CONCEPT SECTION --------*/
+
+.container-concept {
+  display: inline-block;
+  background-color: #F8F5F2;
+  text-align: center;
+  width: 110em;
+height: 60em;
+margin-top: 15em;
+
+
+}
+
+.container-concept h2 {
+color: #A10F33;
+display: block;
+position: relative;
+margin-top: 8em;
+font-weight: 400;
+
+
+}
+
+.container-concept h3 {
+font-style: italic;
+font-weight: 300;
+}
+
+.concept-sec {
+  display: flex;
+
+}
+.concept {
+  display:inline-block
+}
+
+.concept img {
+  border-radius: 20em;
+  width:15em;
+  height: 15em;
+margin-left: 5em;
+margin-top: 5em;
+
+}
+
+
+
+/* -----FOLLOW US SECTION --------*/
+
+.followus-sec {
+  display: flex;
+  flex-direction: row;
+margin-left: 40%;
+margin-bottom: 5em;
+margin-top: 5em;
+align-items: center;
+}
+.container-followus {  
+  margin-left: 3em;
+
+}
+
+.headline-followus {
+display: block;
+}
+
+.headline-followus h3 {
+  transition: 0.5s;
+  font-size: 20px;
+
+}
+.headline-followus h3:hover {
+color: #A10F33;
+font-weight: 300;
+font-size: 22px;
+
+}
+
+.img-followus img{
+ /* display: inline-block; */
+transition: 0.5s;
+}
+
+.img-followus img:hover {
+
+  color: #A10F33;
+}
+
+
+
+/* -----FOOTER --------*/
