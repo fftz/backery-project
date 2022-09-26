@@ -30,6 +30,11 @@ ul {
     display:inline-block;
 
 }
+.home-color {
+  color: #A10F33 !important;
+  text-decoration:  underline !important;
+
+}
 
 a {
    color: #FFFFFF !important;

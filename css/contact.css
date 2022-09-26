@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+ padding: 0; 
+    font-family: 'Inter', sans-serif;
+  
+
+}
+
+nav {
+   /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;  
+      background-color: #262B36;
+    height: 4.5em;
+   
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    
+  }
+  ul > li{
+    display:inline-block;
+
+}
+
+
+a {
+   color: #FFFFFF !important;
+   margin: 1.5em;
+   letter-spacing: 0.1em;
+   display: block;
+   
+
+}
+a:link {
+    text-decoration: none;
+
+  }
+
+
+    /* -----Headline SECTION --------*/      
+      
+      
+        .container-contact {
+          width: 100%;
+          height: 60em;
+          flex-direction: column;
+          background-color: #F8F5F2;
+          }
+          
+          
+          
+          .contact-img img {
+            position: absolute;
+            width: 50em ;
+            height: 35em;
+            border-radius: 8px;
+            margin-top: 5em;
+            margin-left: 5em;
+
+          }
+          
+          .text-contact {
+            display: inline-block;  
+            font-size: 25px;
+            font-weight: 300;
+          width:30em;
+          color: #A10F33;
+         font-family: 'Roboto', sans-serif;
+         position: relative;
+         margin-left: 30em;
+         z-index: 1;
+        margin-top: 9em;
+        
+          
+          }
+           
+          .text-contact p{
+            display: inline-block;  
+          z-index: 1;
+margin-left: 7em;
+width:15em;
+color: black;
+font-weight: 200;
+margin-top: 0;
+      
+          }
+          
+            .question  {
+              color: #A10F33;
+              font-style: italic;
+              font-size: 35px;
+              margin-left: 5em;
+              z-index: 1;
+              font-weight: 500;
+letter-spacing: 1mm;
+font-weight: 300;
+
+              }
+          
+    .sayhi {
+        margin-top: 3em;
+        color: #A10F33;
+        font-style: italic;
+        font-size: 30px;
+        margin-left: 6em;
+        z-index: 1;
+font-weight: 300;
+letter-spacing: 1mm;
+    }
+
+    input {
+        margin-left: 14em;
+        width: 23em;
+        height: 2em;
+        outline: 0;
+  border-width: 0 0 2px;
+  background-color: #F8F5F2;
+
+    }
