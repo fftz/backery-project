@@ -1,4 +1,4 @@
 # backery-project
 First repository on GitHub.
-My first Project: 
+My Project for Web Developement -FrauenLoop: 
 Topic - Bakery Website
