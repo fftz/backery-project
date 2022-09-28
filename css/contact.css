@@ -117,7 +117,7 @@ font-weight: 300;
 letter-spacing: 1mm;
     }
 
-    input {
+   .text-contact input {
         margin-left: 14em;
         width: 23em;
         height: 2em;
@@ -126,3 +126,132 @@ letter-spacing: 1mm;
   background-color: #F8F5F2;
 
     }
+
+    .contact-info {
+        display: inline-block;  
+        z-index: 1;
+margin-left: 5em;
+width:25em;
+color: #A10F33;
+font-weight: 300;
+margin-top: 5em;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    }
+
+
+
+       /* -----FOLLOW US SECTION --------*/
+  
+  .followus-sec {
+    display: flex;
+    flex-direction: row;
+  margin-left: 40%;
+  margin-bottom: 5em;
+  margin-top: 5em;
+  align-items: center;
+  }
+  .container-followus {  
+    margin-left: 3em;
+  
+  }
+  
+  .headline-followus {
+  display: block;
+  }
+  
+  .headline-followus h3 {
+    transition: 0.5s;
+    font-size: 20px;
+  
+  }
+  .headline-followus h3:hover {
+  color: #A10F33;
+  font-weight: 300;
+  
+  }
+  
+  .img-followus img{
+   /* display: inline-block; */
+  transition: 0.5s;
+  }
+  
+  .img-followus img:hover {
+  
+    color: #A10F33;
+  }
+  
+
+
+  /* -----FOOTER --------*/
+
+footer {
+    background-color: #262B36;
+    color: #FFFFFF;
+    height: 20em;
+    box-sizing: border-box;
+  
+  }
+  
+  .form-control input {
+    width: 10em;
+    height: 3em;
+    margin-top: 2em;
+  
+  }
+  
+  
+  .signup {
+    text-align: center;
+    margin: 2em 2em 0 10em;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+  
+  }
+  
+  .form-control {
+    margin-top: 2em;
+    width: 10%; 
+  }
+  
+  .btn-outline-secondary {
+    height: 3em;
+    margin-top: 2em;
+  }
+  
+  
+  
+  .info-sec {
+  float: left;
+  width: 15%;
+  margin-top: 8em;
+  }
+  
+  .info-sec a {
+  margin: 0 1em 0 1em;
+    width: 100%;
+    color:#FFFFFF;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  
+  
+  
+  .line-sec {
+    padding: 0;
+    display: flex;
+    margin: 0;
+  justify-content: center;
+  margin-top: 11em;
+  }
+  
+  .line-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  margin-left:2em;
+  padding: 0;
+  font-weight: 300;
+  }

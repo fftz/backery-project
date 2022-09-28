@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-npm",
+  "version": "1.0.0",
+  "description": "First repository on GitHub. My first Project:  Topic - Bakery Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fftz/backery-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fftz/backery-project/issues"
+  },
+  "homepage": "https://github.com/fftz/backery-project#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
