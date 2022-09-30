@@ -6,44 +6,31 @@ html, body {
 
 }
 
-nav {
-   /* position: fixed; */
-    top: 0;
-    left: 0;
-    right: 0;
-    overflow: auto;  
+div.container {
+  width: auto;
+  height: 3.5em;
+  }
+  
+  .nav-item {
+      margin-left: 3em;
+      letter-spacing: 0.2em;
+
+  }
+  
+  .navbar-expand-lg {
       background-color: #262B36;
-    height: 4.5em;
-   
-   
-}
-
-ul {
-    list-style-type: none;
-    margin: 0 ;
-    padding: 0;
-    align-items: center;
-    text-align: center;
-    
   }
-  ul > li{
-    display:inline-block;
-
-}
-
-
-a {
-   color: #FFFFFF !important;
-   margin: 1.5em;
-   letter-spacing: 0.1em;
-   display: block;
-   
-
-}
-a:link {
-    text-decoration: none;
-
-  }
+  
+  .navbar-nav .active {
+      font-weight: bold;
+    } 
+  
+    .navbar-nav {
+      font-size: medium;
+      
+    }
+  
+  
 
 
     /* -----Headline SECTION --------*/      
