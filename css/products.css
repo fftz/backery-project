@@ -288,73 +288,25 @@ font-size: 30px;
 
      /* -----FOOTER --------*/
 
-footer {
-    background-color: #262B36;
-    color: #FFFFFF;
-    height: 20em;
-    box-sizing: border-box;
-  
-  }
-  
-  input {
-    width: 10em;
-    height: 3em;
-    margin-top: 2em;
-  
-  }
-  
-  
-  .signup {
-    text-align: center;
-    margin: 2em 2em 0 10em;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 0.1em;
-  
-  }
-  
-  .form-control {
-    margin-top: 2em;
-    width: 10%; 
-  }
-  
-  .btn-outline-secondary {
-    height: 3em;
-    margin-top: 2em;
-  }
-  
-  
-  
-  .info-sec {
-  float: left;
-  width: 15%;
-  margin-top: 8em;
-  }
-  
-  .info-sec a {
-  margin: 0 1em 0 1em;
-    width: 100%;
-    color:#FFFFFF;
-    font-size: 10px;
-    font-weight: 300;
-  }
-  
-  
-  
-  .line-sec {
-    padding: 0;
-    display: flex;
-    margin: 0;
-  justify-content: center;
-  margin-top: 11em;
-  }
-  
-  .line-text {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-  margin-left:2em;
-  padding: 0;
-  font-weight: 300;
-  }
+     py-5 {
+      padding-top: 3rem!important;
+      padding-bottom: 3rem!important;
+    }
+    
+    *, ::after, ::before {
+      box-sizing: border-box;
+    }
+    
+    footer {
+      display: block;
+    }
+    
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0;
+      width: 100%;
+      padding-right: calc(var(--bs-gutter-x) * .5);
+      padding-left: calc(var(--bs-gutter-x) * .5);
+      margin-right: auto;
+      margin-left: auto;
+    }
