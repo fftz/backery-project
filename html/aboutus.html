@@ -54,7 +54,7 @@
     </p>
     </div>
         <div class="aboutus-pic">
-        <img src="/backery-project/images/nick-karvounis-jN_M0McVNeI-unsplash.jpg" width="500px" alt="">
+        <img data-src="/backery-project/images/nick-karvounis-jN_M0McVNeI-unsplash.jpg" class="lazy" width="500px" alt="">
         </div>
     </section>
 
@@ -62,7 +62,7 @@
 
 <section class="container-unique">
     <div class="unique-pic">
-        <img src="/backery-project/images/alexandra-gornago-YjadnXdoa6s-unsplash.jpg" width="500px" alt="">
+        <img data-src="/backery-project/images/alexandra-gornago-YjadnXdoa6s-unsplash.jpg" class="lazy" width="500px" alt="">
     </div>
 
    <div class="headline-unique">
@@ -91,17 +91,17 @@
 
 <h2 class="container-specials" >FAT CAT SPECIALS</h2>
 <div class="specials">
-    <img src="/backery-project/images/jordane-mathieu-W1TOhhlbQpw-unsplash.jpg" width="300px" alt=""> <br>
+    <img data-src="/backery-project/images/jordane-mathieu-W1TOhhlbQpw-unsplash.jpg" class="lazy" width="300px" alt=""> <br>
     <button class="specials-btn">LEARN MORE</button>
     <p class="specials-text">Super rich chocolate brownie</p>
 </div>
 <div class="specials"> 
-    <img src="/backery-project/images/slashio-photography-ZTpUrmxu4Aw-unsplash.jpg" width="300px" alt=""> <br>
+    <img data-src="/backery-project/images/slashio-photography-ZTpUrmxu4Aw-unsplash.jpg" class="lazy " width="300px" alt=""> <br>
     <button class="specials-btn">LEARN MORE</button>
     <p class="specials-text">Chef's special chocolate-nuts cake </p>
 </div>
 <div class="specials"> 
-    <img src="/backery-project/images/monika-grabkowska-3AnjIdy2804-unsplash.jpg" width="300px" alt=""> <br>
+    <img data-src="/backery-project/images/monika-grabkowska-3AnjIdy2804-unsplash.jpg" class="lazy" width="300px" alt=""> <br>
     <button class="specials-btn">LEARN MORE</button>
     <p class="specials-text">Pistachio filled chocolate balls</p>
 </div>
@@ -116,23 +116,23 @@
     </div>
     <section  class="concept-sec">
     <div class="concept">
-        <img src="/backery-project/images/toa-heftiba-jjZsHhEtees-unsplash.jpg" width="300px" alt="">
+        <img data-src="/backery-project/images/toa-heftiba-jjZsHhEtees-unsplash.jpg" class="lazy" width="300px" alt="">
         <p>Cranberry Tart</p>
     </div>
     <div class="concept"> 
-        <img src="/backery-project/images/kobby-mendez-w0_w3N_hG00-unsplash.jpg" width="300px" alt="">
+        <img data-src="/backery-project/images/kobby-mendez-w0_w3N_hG00-unsplash.jpg" class="lazy" width="300px" alt="">
         <p>Chocolate cupcake </p>
     </div>
     <div class="concept"> 
-        <img src="/backery-project/images/jordane-mathieu-RlVfpigJYb8-unsplash.jpg" width="300px" alt="">
+        <img data-src="/backery-project/images/jordane-mathieu-RlVfpigJYb8-unsplash.jpg" class="lazy" width="300px" alt="">
         <p>Raspberry cheesecake</p>
     </div>
     <div class="concept"> 
-        <img src="/backery-project/images/jordane-mathieu-mLtIBNInDGY-unsplash.jpg" width="300px" alt="">
+        <img data-src="/backery-project/images/jordane-mathieu-mLtIBNInDGY-unsplash.jpg" class="lazy" width="300px" alt="">
         <p>Mango passion cake</p>
     </div>
     <div class="concept"> 
-        <img src="/backery-project/images/pranjall-kumar-lRAApjOIaFs-unsplash.jpg" width="300px" alt="">
+        <img data-src="/backery-project/images/pranjall-kumar-lRAApjOIaFs-unsplash.jpg" class="lazy" width="300px" alt="">
         <p>Chocolate coffee cake </p>
     </div>
 </section>
@@ -144,10 +144,10 @@
     <h3 class="followus">FOLLOW US ON</h3>
     </div>
     <div class="container-followus">
-        <img class="img-followus" src="/backery-project/images/instagram.png" width="50px" alt="instagram icon">
-        <img class="img-followus" src="/backery-project/images/facebook.png" width="50px" alt="facebook icon">
-        <img class="img-followus" src="/backery-project/images/tiktok.png" width="50px" alt="tiktok icon">
-        <img class="img-followus" src="/backery-project/images/youtube.png" width="50px" alt="youtube icon">
+        <img class="img-followus lazy" data-src="/backery-project/images/instagram.png" width="50px" alt="instagram icon">
+        <img class="img-followus lazy" data-src="/backery-project/images/facebook.png" width="50px" alt="facebook icon">
+        <img class="img-followus lazy" data-src="/backery-project/images/tiktok.png" width="50px" alt="tiktok icon">
+        <img class="img-followus lazy" data-src="/backery-project/images/youtube.png" width="50px" alt="youtube icon">
     </div>
 </div>
 </main>
@@ -170,8 +170,7 @@
     
           <div class="col-md-5 offset-md-1 mb-3">
             <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
+                <h5 class="mb-3">Write us an Email</h5>
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">Email address</label>
                 <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
@@ -191,5 +190,15 @@
         </div>
       </footer>
     </div>
+
+    <!----  JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script type="text/javascript">
+      var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+        // Your custom settings go here
+      });
+      
+      </script>
 </body>
 </html>

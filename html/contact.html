@@ -37,7 +37,7 @@
             <main>
                 <section class="container-contact">
                 <div class="contact-img">
-                 <img src="/backery-project/images/toa-heftiba-S1Z_Cudra0k-unsplash.jpg" width="500px" alt="">
+                 <img data-src="/backery-project/images/toa-heftiba-S1Z_Cudra0k-unsplash.jpg" class="lazy" width="500px" alt="">
                 </div>
 
                 <div class="text-contact">
@@ -73,10 +73,10 @@
                 <h3 class="followus">FOLLOW US ON</h3>
                 </div>
                 <div class="container-followus">
-                    <img class="img-followus" src="/backery-project/images/instagram.png" width="50px" alt="instagram icon">
-                    <img class="img-followus" src="/backery-project/images/facebook.png" width="50px" alt="facebook icon">
-                    <img class="img-followus" src="/backery-project/images/tiktok.png" width="50px" alt="tiktok icon">
-                    <img class="img-followus" src="/backery-project/images/youtube.png" width="50px" alt="youtube icon">
+                    <img class="img-followus lazy" data-src="/backery-project/images/instagram.png" width="50px" alt="instagram icon">
+                    <img class="img-followus lazy" data-src="/backery-project/images/facebook.png" width="50px" alt="facebook icon">
+                    <img class="img-followus lazy" data-src="/backery-project/images/tiktok.png" width="50px" alt="tiktok icon">
+                    <img class="img-followus lazy" data-src="/backery-project/images/youtube.png" width="50px" alt="youtube icon">
                 </div>
             </div>
             </main>
@@ -98,9 +98,8 @@
                      
                       <div class="col-md-5 offset-md-1 mb-3">
                         <form>
-                          <h5>Subscribe to our newsletter</h5>
-                          <p>Monthly digest of what's new and exciting from us.</p>
-                          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <h5 class="mb-3">Write us an Email</h5>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                             <label for="newsletter1" class="visually-hidden">Email address</label>
                             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
                             <button class="btn btn-custom text-light" style="background-color: #A10F33;"  type="button">Subscribe</button>
@@ -119,5 +118,15 @@
                     </div>
                   </footer>
                 </div>
+
+                    <!----  JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script type="text/javascript">
+      var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+        // Your custom settings go here
+      });
+      
+      </script>
             </body>
 </html>
